@@ -1,0 +1,88 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: rgb(241, 205, 44);
+}
+
+#city-location {
+    color: rgb(238, 159, 13);
+    font-size: 60px;
+    position: relative;
+    margin-left: 80px;
+    right: 0px;
+}
+
+h1 {
+    position: relative;
+    right: 0px;
+    font-size: 30px;
+    margin-left: 80px;
+    color: rgb(31, 31, 197);
+}
+
+h3 {
+    text-align: right;
+    position: fixed;
+}
+
+.searching {
+    border: solid yellow 2px;
+    border-radius: 0;
+    margin-right: 0;
+}
+
+.btn-search {
+    border: solid yellow 2px;
+    background-color: yellow;
+    padding: 20px 20px;
+    margin-left: 0;
+    color: #fff;
+}
+
+.weather-detail {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: rgb(238, 159, 13);
+}
+
+h4 {
+    color: rgb(31, 31, 197);
+    font-size: 30px;
+    position: relative;
+    margin-left: 80px;
+    right: 0px;
+}
+
+#weather {
+    color: rgb(31, 31, 197);
+    font-size: 30px;
+    position: relative;
+    right: 0px;
+    margin-left: 80px;
+}
+
+.row {
+    color: rgb(248, 139, 7, 0.842);
+    font-size: 20px;
+}
+
+.container {
+    background: rgb(242, 205, 44);
+}
+
+.card {
+    background: rgb(248, 248, 131);
+}
+
+#celcius {
+    text-decoration: none;
+    color: darkblue;
+    padding: 0 8px;
+    margin-left: 8px;
+}
+
+#fahrenheit {
+    text-decoration: none;
+    color: darkblue;
+    padding: 0 8px;
+}

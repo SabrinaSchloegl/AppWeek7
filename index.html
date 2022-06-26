@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather search engine Sabrina</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container">
+        <div class="card" style="width: 100%;">
+          <div class="card-body">
+            <form id="search-form">
+              <input
+                type="text"
+                placeholder="Enter a city"
+                aria-label="Search"
+                id="search-input"
+              />
+              <input type="submit" value="search" />
+            </form>
+          </div>
+          <h1>🌤️ at the moment</h1>
+          <div class="col-4">
+            <img
+              src="http://openweathermap.org/img/wn/${
+                forecastDay.weather[0].icon
+              }@2x.png"
+              alt=""
+              width="42"
+            />
+          <h4 class="theTime">Actual Time</h4>
+          <div id="weather" class="weather-temperature"></div>
+          
+          <div class="row">
+            <div class="col-6">
+              <div class="clear icon">
+                  <strong id="temperature"></strong
+                  ><span class="units"> °C | <a href="#" id="fahrenheit-link">°F</a></span>
+                </div>
+              </div>
+            </div>
+      
+          <div class="col" id="current-location">
+            <span id="city-location">Vienna</span>
+            
+          <br />
+          
+          <br />
+          <div class="col-4">
+            <div class="weather-detail">
+              <div class="col-12">Precipitation: 0%</div>
+              <div class="col-12">Wind: 14km/h</div>
+              <div class="col-12">Humidity: 14%</div>
+
+            </div>
+          </div>
+
+          <p>
+            <a
+              href="https://getbootstrap.com/docs/4.3/components/card/"
+              target="_blank"
+            >
+            </a>
+          </p>
+          <br />
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
