@@ -93,7 +93,7 @@ function displayWeather(response) {
 }
 
 function retrievePosition(position) {
-  let apiKey = "9fa869b82f729f6b388e9602e181cb7f";
+  let apiKey = "9fa869b82f729f6b388e9602e181cb7f"
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude;
   //let units = "metric";
