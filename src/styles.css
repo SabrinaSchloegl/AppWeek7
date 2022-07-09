@@ -102,5 +102,5 @@ li:first-letter {
     color: rgb(31, 31, 197);
 }
 
-.btn-btn-primary {
-background-color:rgb(31, 31, 197);}
+.btn-btn-primary-w-100 {
+background-color:red;}
