@@ -101,3 +101,6 @@ li:first-letter {
     font-size: 15px;
     color: rgb(31, 31, 197);
 }
+
+.btn-btn-primary {
+background-color:rgb(31, 31, 197);}
